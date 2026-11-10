@@ -40,8 +40,8 @@ export default function TestimonialsSection() {
               className="snap-center shrink-0 w-[min(78vw,300px)] md:w-auto md:shrink md:max-w-sm md:mx-auto rounded-2xl bg-white border border-amber-200/80 p-3 sm:p-5 flex flex-col items-center shadow-xs"
             >
               <TestimonialPlayer
-                src={item.src}
-                poster={item.poster}
+                mediaId={item.mediaId}
+                aspect={item.aspect}
                 label={item.label}
                 isActive={activeId === item.id}
                 onPlay={() => setActiveId(item.id)}

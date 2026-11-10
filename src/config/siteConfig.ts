@@ -16,8 +16,7 @@ export const siteConfig = {
 
   mainVsl: {
     title: "Vedic Manifestation",
-    src: "https://res.cloudinary.com/dxhbqfjl/video/upload/Hero_Vedionew2.mp4",
-    poster:
-      "https://res.cloudinary.com/dxhbqfjl/video/upload/so_0,w_1280,q_auto,f_jpg/Hero_Vedionew2.jpg",
+    mediaId: "y3nej3y337",
+    aspect: 1.7777777777777777,
   },
 };

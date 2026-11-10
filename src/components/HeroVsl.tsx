@@ -33,8 +33,8 @@ export default function HeroVsl() {
 
         <div className="relative mx-auto max-w-4xl rounded-2xl p-1.5 bg-gradient-to-b from-amber-300/40 via-amber-200/20 to-amber-100/10 shadow-2xl shadow-amber-950/10 mb-10">
           <HeroPlayer
-            src={siteConfig.mainVsl.src}
-            poster={siteConfig.mainVsl.poster}
+            mediaId={siteConfig.mainVsl.mediaId}
+            aspect={siteConfig.mainVsl.aspect}
             title={siteConfig.mainVsl.title}
           />
         </div>

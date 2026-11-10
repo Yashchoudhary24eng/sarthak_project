@@ -18,6 +18,6 @@ export interface ProgramInclusion {
 export interface TestimonialPlaceholder {
   id: string;
   label: string;
-  src: string;
-  poster: string;
+  mediaId: string;
+  aspect: number;
 }

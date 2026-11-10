@@ -1,29 +1,23 @@
 import { FaqItem, JourneyStep, ProgramInclusion, TestimonialPlaceholder } from "../types";
 
-const cloudinaryVideo = (fileName: string) =>
-  `https://res.cloudinary.com/dxhbqfjl/video/upload/q_auto,w_720/${fileName}.mp4`;
-
-const cloudinaryPoster = (fileName: string) =>
-  `https://res.cloudinary.com/dxhbqfjl/video/upload/so_0,w_720,q_auto,f_jpg/${fileName}.jpg`;
-
 export const testimonialPlaceholders: TestimonialPlaceholder[] = [
   {
     id: "testimonial-1",
     label: "Client Testimonial Video 1",
-    src: cloudinaryVideo("WhatsApp_Video_1"),
-    poster: cloudinaryPoster("WhatsApp_Video_1"),
+    mediaId: "xb7ca1x0dy",
+    aspect: 0.5625,
   },
   {
     id: "testimonial-2",
     label: "Client Testimonial Video 2",
-    src: cloudinaryVideo("WhatsApp_Video_2"),
-    poster: cloudinaryPoster("WhatsApp_Video_2"),
+    mediaId: "uo9s1vx44m",
+    aspect: 0.5625,
   },
   {
     id: "testimonial-3",
     label: "Client Testimonial Video 3",
-    src: cloudinaryVideo("WhatsApp_Video_3"),
-    poster: cloudinaryPoster("WhatsApp_Video_3"),
+    mediaId: "emwr75kgv2",
+    aspect: 0.5581395348837209,
   },
 ];
 
